@@ -1,0 +1,26 @@
+money = int(input("กรอกจำนวนเงิน: "))
+if money >= 1000:
+    print("1000 บาท =",money//1000,"ใบ")
+    money = money % 1000
+if money >= 500:
+    print("500 บาท =",money//500,"ใบ")
+    money = money % 500
+if money >= 100:
+    print("100 บาท =",money//100,"ใบ")
+    money = money % 100
+if money >= 50:
+    print("50 บาท =",money//50,"ใบ")
+    money = money % 50
+if money >= 20:
+    print("20 บาท =",money//20,"ใบ")
+    money = money % 20
+if money >= 10:
+    print("เหรียญสิบ =",money//10,"เหรียญ")
+    money = money % 10
+if money >= 5:
+    print("เหรียญห้า=",money//5,"เหรียญ")
+    money = money % 5
+if money >= 1:
+    print("เหรียญบาท =",money//1,"เหรียญ")
+    money = money % 1
+
